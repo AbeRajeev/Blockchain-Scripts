@@ -1,0 +1,27 @@
+{
+  "name": "blockchainscripts",
+  "version": "1.0.0",
+  "description": "Various scripts to perform various actions realted to DeFi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abe",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eth-gas-reporter": "^0.2.25",
+    "ethers": "^5.7.2",
+    "etherscan-api": "^10.2.0",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "web3": "^1.8.1",
+    "web3-core-helpers": "^1.8.1"
+  }
+}
